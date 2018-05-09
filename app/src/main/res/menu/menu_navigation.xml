@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single"
+        android:visible="true">
+        <item
+            android:id="@+id/nav_extraordinary"
+            android:title="ExtraOrdinary Qualities" />
+        <item
+            android:id="@+id/nav_ask"
+            android:title="Ask a question" />
+
+        <item
+            android:id="@+id/nav_faq"
+            android:title="FAQ"
+            />
+    </group>
+
+    <item android:title="User Admission">
+        <menu>
+
+            <item
+                android:id="@+id/nav_orderNow"
+                android:icon="@drawable/register"
+                android:title="Order Now"
+                />
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/login"
+                android:title="Login"
+                />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_action_name"
+                android:title="Share with Friend" />
+            <item
+                android:id="@+id/nav_contactUs"
+                android:icon="@drawable/contactuss"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_myprofile"
+                android:icon="@drawable/myprofile"
+                android:title="My profile" />
+
+        </menu>
+    </item>
+
+
+</menu>

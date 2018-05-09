@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/thirdscreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Details"
+            android:textSize="40dp"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            />
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center_horizontal">
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thank you for Submitting your order.\n Your Order Detail is in below:\n Please pay now with secure service payable"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Order Id:"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="center"
+            android:textColor="@color/Blue"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  .........."
+                android:textSize="20dp"
+                android:id="@+id/orderId"
+                android:textColor="@color/Blue"/>
+
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_edittext"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+           >
+
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:text="Name:  "
+                    android:textSize="15dp"
+                    android:textColor="@color/Black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="............"
+                    android:id="@+id/customer_name"
+                    android:textColor="@color/Black"/>
+            <LinearLayout
+                android:layout_marginLeft="60dp"
+                android:layout_width="2dp"
+                android:layout_height="45dp"
+                android:background="@color/Black"
+                android:orientation="vertical">
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:text="Email:  "
+                android:textSize="15dp"
+                android:textColor="@color/Black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".........................."
+                android:id="@+id/customer_email"
+                android:textColor="@color/Black"/>
+
+        </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/shap_edittext1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        >
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="Topic:  "
+            android:textSize="15dp"
+            android:textColor="@color/Black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="............"
+            android:id="@+id/customer_topic"
+            android:textColor="@color/Black"/>
+        <LinearLayout
+            android:layout_marginLeft="60dp"
+            android:layout_width="2dp"
+            android:layout_height="45dp"
+            android:background="@color/Black"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:text="Format: "
+            android:textSize="15dp"
+            android:textColor="@color/Black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  ..............."
+            android:id="@+id/customer_format"
+            android:textColor="@color/Black"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_edittext"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            >
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:text="Submission date:  "
+                android:textSize="15dp"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="............"
+                android:layout_marginTop="20dp"
+                android:id="@+id/customer_submissionDate"
+                android:textColor="@color/Black"/>
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_width="2dp"
+                android:layout_height="60dp"
+                android:background="@color/Black"
+                android:orientation="vertical">
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:text="Select Page: "
+                android:textSize="15dp"
+                android:textColor="@color/Black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="  ..............."
+                android:layout_marginTop="10dp"
+                android:id="@+id/customer_selectpage"
+                android:textColor="@color/Black"/>
+
+
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shap_edittext1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="Country:  "
+                android:textSize="15dp"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="..................."
+                android:id="@+id/customer_country"
+                android:textColor="@color/Black"/>
+            <LinearLayout
+                android:layout_marginLeft="23dp"
+                android:layout_width="2dp"
+                android:layout_height="40dp"
+                android:background="@color/Black"
+                android:orientation="vertical">
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Sources:  "
+                android:textSize="15dp"
+                android:textColor="@color/Black"
+                />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="............"
+                android:id="@+id/customer_source"
+                android:textColor="@color/Black"/>
+
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_edittext"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="Spacing:  "
+                android:textSize="15dp"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="..................."
+                android:id="@+id/customer_spacing"
+                android:textColor="@color/Black"/>
+            <LinearLayout
+                android:layout_marginLeft="23dp"
+                android:layout_width="2dp"
+                android:layout_height="45dp"
+                android:background="@color/Black"
+                android:orientation="vertical">
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Your subject:  "
+                android:textSize="15dp"
+                android:textColor="@color/Black"
+                />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="............"
+                android:id="@+id/customer_subject"
+                android:textColor="@color/Black"/>
+
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shap_edittext1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:text="Dictionary: "
+                android:textSize="15dp"
+                android:textColor="@color/Black"
+                />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="........."
+                android:id="@+id/customer_dictionary"
+                android:textColor="@color/Black"/>
+            <LinearLayout
+                android:layout_marginLeft="28dp"
+                android:layout_width="2dp"
+                android:layout_height="45dp"
+                android:background="@color/Black"
+                android:orientation="vertical">
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Price:still processing (please wait we will provide the price)"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/paypal"
+                android:src="@drawable/paypall"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/thirdscreen">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/city">
+
+            </ImageView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
+
+
+

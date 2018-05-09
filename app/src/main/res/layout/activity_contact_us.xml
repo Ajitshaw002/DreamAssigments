@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/contactusbanner"
+            android:background="@drawable/back"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+            android:background="@drawable/thirdscreen">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/chat"
+                    android:id="@+id/contact_message"
+                    android:layout_marginLeft="65dp"/>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/email"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/contact_email"/>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/contact_call"
+                    android:src="@drawable/calll"
+                    android:layout_marginLeft="10dp"/>
+
+
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="Message"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:text="    Email"
+                android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:text="     Call"
+                    android:layout_marginLeft="30dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="50dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                 You can also Discuss Your Assignment \n                                          On Whatapps \n                                    (+1) 323 825 3015"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            android:background="@drawable/thirdscreen"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="             DISCLAMER: Dream Assignment offers\n       high quality original content for your academic \n                                         homework. "
+                android:textStyle="bold"
+                android:textSize="15dp"
+
+                />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="       Copyright © 2015 Dream Assignment. All Rights \n                                          Reserved."
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/textFacebook"
+                    android:layout_marginTop="20dp"
+
+                    />
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/thirdscreen">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/city">
+
+            </ImageView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:src="@drawable/term_bg2"
+            android:background="@drawable/back">
+
+        </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/thirdscreen">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy Of Dream Assignment"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All the necessary information is closely kept within the company profile. We strictly follow the rules of not providing the information to the third parties even we do not provide any sort of information to others which is related to the third parties. The payments system is entirely handled by PayPal. We entirely made a setup with the PayPal in order to deal with the credit card of the students or clients and as well as other necessary information. We do reserve the right to disclose you personal information related to your identification. In accordance with the law we generally comply with the rights, regulations, judicial proceedings, legal process and court order which are all served on our website. DreamAssignment.com reserves the right in order to modify the privacy statement at any particular time period. So we always suggest that please review it frequently. If any changes are required to be made for the above policy this will be posted in our site. Using of the site, software and services comprises of your agreement that is to be bound by that required necessary changes.\n"
+                android:textStyle="italic"
+                android:textSize="17dp"
+                android:layout_margin="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

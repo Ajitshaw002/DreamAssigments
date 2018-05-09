@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android_user.dreamassigments.TermsOfUse">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:src="@drawable/term_bg1"
+                android:background="@drawable/back">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/thirdscreen">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terms Of Use Of Dream Assignment"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    Kindly go through the Terms and Conditions thoroughly before apply any services in education provided by Dream Assignment. The Terms are valid for all folks for the services and the visitors in the website.\nIn the Conditions, 'us' , 'we', and assignment assistance' shows Dream Assignment. In the Terms, shows the guardian, parent, or student is using the website and services.\nThe company logo and name homework guidance are the sole owner of us. Any part of the web-site may not be copied in the form without getting written consent of homework assistance.The legal rights are stated in the Policy are reserved with the homework guidance help. The materials of the website have copyright and totally owned by homework guidance. You can get a print out of the document for noncommercial use. The permission was not given for using content on website for business or changing any kind of objective. Most of the benefits placed in Policy part are stored in homework assistance. The materials for content of the website have copyrighted materials totally operated by assistance for assignment. Additionally, you may get a print form of content for a casual way."
+                android:textStyle="italic"
+                android:textSize="17dp"
+                android:layout_margin="8dp"/>
+
+
+
+            </LinearLayout>
+
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android_user.dreamassigments.FrequentlyAsk"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/term_bg3"
+                android:orientation="horizontal"
+                android:background="@drawable/back">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/thirdscreen">
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 1.Why choose DreamAssignment.com?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="  •	Delivery of assignment before deadlines\n
+ •	High quality with unique content\n
+ •	At cheapest price\n
+ •	Guaranteeing in providing the first class \n    assignment written by experts and \n    professionals\n
+ •	Round the clock support to the perspective \n   clients provided by experienced and \n   qualified customer service executives."
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=" 2.Which type of writing services and \n    standards do you provide?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="  •	Basically we provide customized writing \n     services  for the following topics:\n
+ .	Dissertation.\n
+ .	Essay.\n
+ .	Coursework.\n
+ .	Thesis Writing.\n
+ . Homework.\n
+ .	Literature Review."
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=" 3.Do you resell all the papers?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text=" • No we do not resell the papers as each and \n  every paper we write is unique and \n  exclusively written for the perspective \n  customer. We provide 100 percent guarantee \n  that we do not repeat  any assignment or \n  work to other customer. 	"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=" 4.Can you deliver the assignment \n    within the deadlines?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text=" • We do provide assignment within deadlines  \n   and are successful in achieving all the \n   deadlines given by customers till date."
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=" 5.If I don’t find any subject in your \n   subject list can you still able to do it?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text=" • We do provide assignment assistance to \n   almost all the subjects. There is no such \n   subject that we have not provided help till \n   date. We are expertise in providing help to all \n   types of subjects."
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=" 6.What is your privacy and refund \n    policy?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="  • We generally store the information by \n    maintaining strict privacy policy in order to \n    keep all our details fully confidential. We \n    thus do not disclose any sort of information \n    to the clients. We refund only in the situation \n    when the clients fail. The actual proof of \n    failure must be presented within one month \n    of the completion of assignment."
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=" 7.Is it total ethical to get an \n   assignment help?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="  • Yes its completely ethical to provide help \n     and assistance to the students who are \n    all struggling with their jobs and as well \n    as shortage of time. We provide them our \n    services so that they can perform well in \n    their academics.  "
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=" 8.Do you provide discount for the \n       assignments?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="  •Yes we do provide discounts under some \n    special and bulk offers. "
+                android:textSize="17dp"
+                android:textStyle="italic" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
